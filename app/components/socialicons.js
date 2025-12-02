@@ -1,5 +1,6 @@
 // components/SocialIcons.js
-import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function SocialIcons() {
   return (
@@ -18,7 +19,7 @@ export default function SocialIcons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaLinkedinIn size={24} />
+        <FaLinkedin size={24} />
       </a>
     </div>
   );
