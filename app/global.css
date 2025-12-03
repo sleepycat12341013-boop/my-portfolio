@@ -156,3 +156,19 @@ table {
 .prose :where(h1, h2, h3, h4, h5, h6, p, li, strong, em, a) {
   @apply text-[#fafafa];
 }
+
+@keyframes button {
+  0% {
+    transform: translate(0, 0) rotate(-7deg);
+  }
+  50% {
+    transform: translate(0, -7px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(7deg);
+  }
+}
+
+.animate-button {
+  animation: button 3s ease-in-out infinite alternate;
+}

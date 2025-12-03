@@ -1,4 +1,4 @@
-import SocialIcons from "./socialicons";
+import SocialIcons from "./SocialIcons";
 
 function ArrowIcon() {
   return (
